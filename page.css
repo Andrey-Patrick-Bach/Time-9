@@ -1,0 +1,62 @@
+body{
+    background-image: url(img/fundo-final.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-size: 25px;
+    padding: 20px;
+}
+.border{
+    display: block;
+    background-color: #eee;
+    border: 1px solid #000;
+    border-radius: 20px ;
+    margin: 0px 50px 25px 50px;
+}
+.imgtop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.classCard{
+    color: #eee; /*cor da escrita*/
+    background-color: #000000cb; /*cor do fundo*/
+    display: flex; /*a caixa fica flexivel*/
+    align-items: center; /*alinha verticalmente o conteudo*/
+    justify-content: center; /*alinha horizontalmente o conteudo*/
+}
+
+.cards{
+    transition: height 0.9s; /*da um efeito mais suave no houver*/
+    margin-right: 20px; /*distancia do texto e a imagem*/
+}
+
+.cards:hover{
+    height: 700px; /*aumenta a imagem para dar um efeito bacana*/
+}
+
+.titlecards{
+    display: block; /*trabalha como um bloco*/
+    padding-top: 35px; /*espacamento do topo de 35px*/
+    padding-left: 45px; /*espaçamento da esquerda do titulo de 45px*/
+    margin: 0; /*margem de 0 para n separar a cor*/
+    color: #ffffff; /*cor do titulo branca*/
+    background-color: #000000cb; /*cor do fundo*/
+}
+
+.textCards{
+    max-width: 600px; /*tamanho da descrição do card, fazendo com que ela ñ quebre ao aumentar os cards*/
+}
+.rodape{
+    margin-top: 50px;
+}
